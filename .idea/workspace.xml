@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0b01fbe-1bce-46ed-aef0-4590af5e56ea" name="Default Changelist" comment="Dodana klasa Artikl.">
+    <list default="true" id="b0b01fbe-1bce-46ed-aef0-4590af5e56ea" name="Default Changelist" comment="Dodana klasa Korpa i Supermarket.">
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,12 +27,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rpr" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in rpr2019-t1-z4">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -39,21 +60,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="All in rpr2019-t1-z4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in rpr2019-t1-z4" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -67,7 +84,10 @@
       <option name="presentableId" value="Default" />
       <updated>1635346778260</updated>
       <workItem from="1635346779564" duration="91000" />
-      <workItem from="1635449475705" duration="3463000" />
+      <workItem from="1635449475705" duration="3876000" />
+      <workItem from="1635457463563" duration="819000" />
+      <workItem from="1635458589434" duration="178000" />
+      <workItem from="1635501633198" duration="2098000" />
     </task>
     <task id="LOCAL-00001" summary="Dodana klasa Artikl.">
       <created>1635450100848</created>
@@ -76,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635450100848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dodana klasa Korpa i Supermarket.">
+      <created>1635457039101</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635457039101</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,9 +119,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dodana klasa Artikl." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodana klasa Artikl." />
+    <MESSAGE value="Dodana klasa Korpa i Supermarket." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodana klasa Korpa i Supermarket." />
   </component>
 </project>
