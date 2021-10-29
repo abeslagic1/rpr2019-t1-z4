@@ -13,6 +13,10 @@ public class Korpa {
         return stvari;
     }
 
+    public int getVelicina(){
+        return vel;
+    }
+
     public boolean dodajArtikl(Artikl a){
         if(vel < 50){
             stvari[vel] = new Artikl(a.getNaziv(), a.getCijena(), a.getKod());
