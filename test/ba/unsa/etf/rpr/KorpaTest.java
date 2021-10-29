@@ -58,7 +58,7 @@ class KorpaTest {
         novaKorpa.dodajArtikl(new Artikl("auto", 20000, "1"));
         novaKorpa.dodajArtikl(new Artikl("motor", 7000, "2"));
         novaKorpa.dodajArtikl(new Artikl("biciklo", 300, "3"));
-        Artikl a = novaKorpa.izbaciArtiklSaKodom("2");
+        novaKorpa.izbaciArtiklSaKodom("2");
         assertEquals(2, novaKorpa.getVelicina());
     }
 }
